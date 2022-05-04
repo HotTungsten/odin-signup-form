@@ -43,18 +43,19 @@
                 </div>
                 <div class="input-elements">
                     <label for="password" class="body-input">PASSWORD</label>
-                    <input type="text" name="password" id="password">
+                    <input type="text" name="password" id="password" class="error">
+                    <div id="error-message">* Passwords do not match</div>
                 </div>
                 <div class="input-elements">
                     <label for="confirm-password" class="body-input">CONFIRM PASSWORD</label>
-                    <input type="text" name="confirm-password" id="confirm-password">
+                    <input type="text" name="confirm-password" id="confirm-password" class="error">
                 </div>
             </div>
         </main>
     
         <footer>
             <button id="create-account">Create Account</button>
-            <div id="footer-text">Already have an account? Log in</div>
+            <div id="footer-text">Already have an account? <u style="color: rgb(95, 95, 156);">Log In</u></div>
         </footer>
     </section>
 </body>
